@@ -6,6 +6,8 @@ import Main from "./pages/Main";
 import CreditCalc from "./pages/CreditCalc"
 import IpotekaCalc from "./pages/IpotekaCalc";
 import Map from "./pages/Map";
+import PersonArea from "./pages/PersonArea";
+
 
 import Logo from "./UI/svg/Logo";
 import LogoFooter from "./UI/svg/Logo_Footer";
@@ -51,7 +53,7 @@ function App() {
                   </div>
                   <div className={"last_block"}>
                       <div className={"nav_elem"}><Link to={'/map'}>Банкоматы</Link></div>
-                      <div className={"nav_elem"}>Онлайн банкинг</div>
+                      <div className={"nav_elem"}><Link to={'/person-area'}>Онлайн банкинг</Link></div>
                   </div>
               </div>
           </div>
@@ -63,6 +65,7 @@ function App() {
               <Route path="/credit" element={<CreditCalc/>}/>
               <Route path="/ipoteka" element={<IpotekaCalc/>}/>
               <Route path="/map" element={<Map/>}/>
+              <Route path="/person-area" element={<PersonArea/>}/>
           </Routes>
 
 

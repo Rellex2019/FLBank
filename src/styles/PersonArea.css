@@ -1,0 +1,72 @@
+.person_area_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFDF6;
+}
+.person_area_center{
+    margin-top: 130px;
+    width: 1560px;
+    display: flex;
+
+}
+
+
+.context_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left_block_person{
+    width: 425px;
+    height: 700px;
+}
+.right_block_person{
+    width: 1017px;
+    height: 929px;
+    background-color: #C9E6C6;
+    border-radius: 20px;
+}
+.wallet{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.block_wallet{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding: 20px 20px 10px 20px;
+
+}
+.name_block_wallet{
+    font-size: 32px;
+}
+.plus{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+.card_container{
+    display: flex;
+    padding: 20px 20px 10px 20px;
+    align-items:center ;
+}
+.summ_container{
+    margin-left: 20px;
+}
+.summ{
+    font-size: 24px;
+}
+.summ_desc{
+    margin-top: -9px;
+    font-size: 20px;
+    color: #93989D;
+}
