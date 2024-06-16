@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Geologica'; /* Замените на название вашего шрифта */
+    src: url('public/fonts/Geologica-Thin.ttf') format('truetype'); /* Укажите путь к файлу шрифта */
+    font-weight: 400; /* Укажите вес шрифта (по желанию) */
+    font-style: normal; /* Укажите стиль шрифта (по желанию) */
+}
