@@ -1,0 +1,21 @@
+.page_container{
+    width: 100vw;
+    height: 250px;
+    background-color: #C9E6C6;
+    display: flex;
+    justify-content: center;
+}
+.page_center{
+    margin-left: 10px;
+    width: 1168px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.page_name{
+    font-size: 32px;
+}
+.page_desc{
+    margin-top: 40px;
+    font-size: 24px;
+}

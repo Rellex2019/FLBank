@@ -1,0 +1,45 @@
+.OpacityBlock{
+    margin-top: 40px;
+    width: 760px;
+    height: 350px;
+    margin-right: 40px;
+    border-radius: 15px;
+    border:1px solid #171B2A;
+}
+.block_container_op{
+    display: flex;
+    height: 350px;
+}
+.block_one_op{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+}
+.name_block_op{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 280px;
+}
+.desc_block_op{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 280px;
+}
+.block_two_op{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+}
+.btn_cont_long_op{
+    position: absolute;
+    bottom: 25px;
+}
+.img_op{
+    object-fit: fill;
+    width: 450px;
+    height: 350px;
+}

@@ -1,0 +1,70 @@
+.footer_container{
+    width: 100vw;
+    height: 420px;
+    background-color: #0D0F15;
+    font-family: Geologica;
+    font-size: 16px;
+    color: #FFFDF6;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.footer{
+    flex-direction: column;
+
+    width: 1550px;
+}
+.foot_elem_one{
+    margin-top: 40px;
+}
+.foot_elem_two{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.first_string, .second_string{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_string{
+    width: 1550px;
+    justify-content: space-between;
+}
+.second_string{
+    margin-top: 20px;
+    width: 485px;
+    justify-content: space-between;
+}
+.six_elem{
+    font-size: 28px;
+}
+
+
+.foot_elem_three{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: Comfortaa;
+}
+.foot_elem_four{
+    color: #AEAEAE;
+    margin-top: 40px;
+}
+
+.first_string_end{
+    display: flex;
+}
+
+.second_string_end{
+    margin-top: 20px;
+}
+
+.one_license{
+    margin-right: 10px;
+}
+.one_elem, .two_elem, .three_elem, .four_elem, .five_elem, .six_elem{
+    cursor: pointer;
+}
+.one_license, .two_license{
+    cursor: pointer;
+}

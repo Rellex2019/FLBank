@@ -1,0 +1,42 @@
+.LongBlock{
+    margin-top: 40px;
+    width: 760px;
+    height: 295px;
+    background-color: #FFF3D1;
+    margin-right: 40px;
+    border-radius: 15px;
+    outline: 3px solid #FFFDF6;
+    outline-offset: -3px;
+
+}
+.block_container{
+    display: flex;
+}
+.block_one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+}
+.name_block{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 280px;
+}
+.desc_block{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 280px;
+}
+.block_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+height: 295px;
+    overflow: hidden;
+}
+.btn_cont_long{
+    position: absolute;
+    bottom: 25px;
+}

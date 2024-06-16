@@ -1,0 +1,111 @@
+.ipoteka_container{
+    margin-top: 100px;
+    width: 100vw;
+    height: 750px;
+    background-color: #FFFDF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ipoteka_center{
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+.ipoteka_block{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.block_one_ipoteka{
+    display: flex;
+    flex-direction: column;
+    height: 768px;
+}
+.block_one_ipoteka, .block_two_ipoteka{
+    width: 600px;
+}
+.city, .target{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    height: 20px;
+    width: 565px;
+    margin-top: 8px;
+}
+.target{
+    width: 588px;
+}
+.your_city{
+    margin-top: 25px;
+}
+.bonus_container{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
+.bonus_one, .bonus_two, .bonus_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bonus_one:hover, .bonus_two:hover, .bonus_three:hover {
+    background-color: #759c72;
+}
+.bonus_one{
+    margin-left: 0px;
+}
+
+
+.home_cost, .first_cost, .home_cost{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+.warnings_ip{
+    margin-top: 50px;
+    color: #93989D;
+}
+
+.block_two_ipoteka{
+    margin-top: -100px;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    align-items: normal;
+}
+.two_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.up_block_ip{
+    font-size: 16px;
+}
+.down_block_ip{
+    font-size: 24px;
+}
+.btn_summ{
+    margin-top: 60px;
+    display: flex;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #759c72;
+    width: 100%;
+    padding: 10px;
+    color: #171B2A;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_summ:hover{
+    color: #FFFDF6;
+}

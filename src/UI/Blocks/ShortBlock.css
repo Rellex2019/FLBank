@@ -1,0 +1,49 @@
+.short_block{
+    width: 493px;
+    height: 493px;
+    background-color: #C9E6C6;
+    margin-top: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 3px solid #ede990;
+    outline-offset: -3px;
+}
+.block_container_short{
+    width: 439px;
+    height: 447px;
+}
+.name_block_short{
+    width: 252px;
+    height: 60px;
+    font-size: 20px;
+}
+.desc_block_short{
+    width: 275px;
+    height: 72px;
+    font-size: 16px;
+}
+.block_two_short{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.btn_cont_short{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.img_cont_short{
+    width: 390px;
+    height: 323px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_short{
+    width: 350px;
+    height: 300px;
+    object-fit: fill;
+}

@@ -1,4 +1,42 @@
 .banner_container{
     display: flex;
-
+    width: 100vw;
+    height: 360px;
+    background-color: #C9E6C6;
+    align-items: center;
+    justify-content: center;
+}
+.center_container{
+    position: relative;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_container{
+    font-size: 36px;
+}
+.text_elem_one{
+    font-size: 40px;
+}
+.text_elem_two{
+    margin-left: 16px;
+}
+.text_elem_three{
+    margin-left: 61px;
+}
+.text_elem_four{
+    margin-left: 111px;
+}
+.text_elem_five{
+    margin-left: 61px;
+    margin-bottom: 70px;
+}
+.text_elem_six{
+    position: absolute;
+    bottom: 0;
+}
+.photo{
+    user-select: none;
+    pointer-events: none;
 }

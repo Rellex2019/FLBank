@@ -1,0 +1,120 @@
+.service_container{
+    margin-top: 65px;
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    color: #171B2A;
+}
+.service{
+    width: 1560px;
+}
+.row_one{
+    font-size: 36px;
+}
+.row_two{
+    display: flex;
+}
+.filter_one,.filter_two, .filter_three,.filter_four{
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #171B2A;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(#171B2A, #171B2A);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+
+}
+
+.filter_one:hover,.filter_two:hover, .filter_three:hover,.filter_four:hover{
+    background-size: 100% 100%;
+    color: #FFFDF6;
+
+}
+
+.row_three{
+    display: flex;
+}
+.up_block_one,.up_block_two{
+    margin-top: 40px;
+    width: 760px;
+    height: 295px;
+    background-color: #FFF3D1;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+.row_four{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.actual_container{
+    margin-top: 65px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.actual_block{
+    width: 1560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.actual_row_two{
+    display: flex;
+}
+
+
+
+
+.news_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.news_block{
+    width: 1560px;
+    align-items: center;
+    flex-direction: column;
+}
+.header_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.name_string{
+    font-size: 32px;
+}
+.name_next{
+    font-size: 24px;
+    cursor: pointer;
+}
+.news{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.news_col_one, .news_col_two, .news_col_three{
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    height: 165px;
+}
+.news_date{
+    font-size: 16px;
+    color: #262626;
+}
+.news_desc{
+    margin-top: 15px;
+    font-size: 20px;
+}
+

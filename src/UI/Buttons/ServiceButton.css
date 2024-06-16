@@ -1,0 +1,26 @@
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFDF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.btn_cont{
+    cursor: pointer;
+}
+.btn_cont:hover .btn{
+    transform: rotate(360deg);
+    background-color: #171B2A;
+}
+.arrow{
+    fill: #171B2A;
+}
+.btn_cont:hover .arrow{
+    fill: #FFFDF6;
+}
+.actual_row_one{
+    font-size: 36px;
+}

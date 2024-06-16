@@ -1,0 +1,39 @@
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+}
+.range_green {
+    width: 584px; /* Ширина ползунка */
+    height: 5px; /* Высота ползунка */
+    appearance: none; /* Скрыть стандартный вид ползунка */
+    cursor: pointer; /* Указать курсор */
+
+    background-image: linear-gradient(#4F7345, #4F7345);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Скрыть стандартный вид бегунка */
+    appearance: none; /* Скрыть стандартный вид бегунка */
+    width: 30px; /* Ширина бегунка */
+    height: 30px; /* Высота бегунка */
+    background-color: #FFFDF6; /* Цвет бегунка */
+    border: 6px solid #759c72;
+    border-radius: 50%; /* Сделать бегунок круглым */
+    cursor: pointer; /* Указать курсор */
+}
+input[type="range"]::-webkit-slider-thumb:hover{
+    background: #e8e7dd;
+}
+
+/* Стили для текстовых полей */
+.number_green {
+    width: 565px; /* Ширина текстовых полей */
+    height: 20px; /* Высота текстовых полей */
+    border: 1px solid #ccc; /* Граница текстовых полей */
+    padding: 10px; /* Отступ в текстовых полях */
+    font-size: 16px;
+
+}

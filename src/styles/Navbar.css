@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Geologica;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-color: #FFFDF6;
+}
+.nav_container{
+    width: 100vw;
+    height: 60px;
+    background-color: #FFFDF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    border-bottom: 1px solid #171B2A;
+}
+.flex_container{
+    display: flex;
+    width: 1566px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.first_block, .last_block{
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.first_block{
+    width: 1095px;
+}
+.last_block{
+    width: 308px;
+}
+.photo{
+    height: 354px;
+}
+.nav_elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search_field{
+    height: 30px;
+    width: 400px;
+    border-radius: 25px;
+    background-image: linear-gradient(#171B2A, #171B2A);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+    display: flex;
+    align-items: center;
+}
+.search_fill{
+    margin-left: 10px;
+    transition: 1s;
+}
+.search_input{
+    font-size: 19px;
+    border-radius: 25px;
+    display: none;
+    padding-left: 5px;
+    margin-left: 10px;
+    width: 350px;
+}
+.search_input:focus {
+    display: block;
+}
+.search_field:focus-within {
+    display: flex;
+    background-size: 100% 100%;
+    color: #FFFDF6;
+    fill: #FFFDF6;
+}
+.search_field:focus-within .search_fill{
+    fill: #FFFDF6;
+}
+.search_field:hover{
+    background-size: 100% 100%;
+    color: #FFFDF6;
+}
+.search_field:hover .search_fill{
+    fill: #FFFDF6;
+    transform: rotate(360deg) scale(80%);
+
+}
+.search_field:hover .search_input{
+    display: block;
+}
+.down_menu, .down_menu2{
+    top: 50px;
+    left: 440px;
+    position: absolute;
+    width:630px;
+    height: 60px;
+    display: none;
+    transition: 1s;
+}
+.down_menu2{
+    left:666px ;
+    width: 472px;
+
+}
+.menu, .menu2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFDF6;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #171B2A;
+    border-top: 0px;
+
+}
+.menu{
+    width:630px;
+}
+.menu2{
+    width:472px;
+}
+#private:hover .down_menu{
+    display: block;
+    z-index: 1;
+
+}
+#business:hover .down_menu2{
+    display: block;
+    z-index: 1;
+}
+

@@ -1,0 +1,73 @@
+
+.credit_container{
+    margin-top: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credit_back{
+    width: 1168px;
+    height: 443px;
+    background-color: #C9E6C6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.credit_center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1031px;
+    height: 394px;
+}
+.name_credit_block{
+    font-size: 30px;
+}
+.input_desc_one, .input_desc_two{
+    font-size:14px ;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+.warnings{
+    font-size: 14px;
+}
+.one_warn{
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
+.second_col{
+    margin-top: 55px;
+    background-color: #FFFDF6;
+    width: 420px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 17px;
+}
+.month_pay{
+    font-size: 20px;
+}
+.money_pay{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.btn_req{
+    margin-top: 30px;
+    width: 382px;
+    height: 50px;
+    background-color: #759c72;
+    border-radius: 8px;
+    color: #FFFDF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_req:hover{
+    background-color: #4F7345;
+    color: #171B2A;
+}
