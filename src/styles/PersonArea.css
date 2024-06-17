@@ -55,6 +55,9 @@
     align-items:center ;
     cursor: pointer;
 }
+.card_container:hover{
+    background-color: rgba(255, 253, 228, 0.5);
+}
 .summ_container{
     margin-left: 20px;
 }
@@ -114,6 +117,7 @@
     justify-content: center;
     align-items: center;
     color: #FFFDF6;
+    cursor: pointer;
 }
 .strip-one:hover, .strip-two:hover, .strip-three:hover, .strip-four:hover, .strip-five:hover, .strip-six:hover{
     background-color: #365131;
@@ -184,8 +188,11 @@
     justify-content: space-between;
     border-radius: 20px;
     background-color: #FFFDF6;
+    cursor: pointer;
 }
-
+.person_container:hover{
+    background-color: #ddd8c3;
+}
 
 
 .connect{

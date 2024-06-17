@@ -13,7 +13,7 @@ const ShortBlock = (props) => {
                 </div>
 
                 <div className={"block_two_short"}>
-                    <div className={"btn_cont_short"}><ServiceButton/></div>
+                    <div className={"btn_cont_short"}><ServiceButton border={'#171B2A'}/></div>
                     <div className={"img_cont_short"}><img className={"img_short"} alt={"картинка"} src={props.img}/></div>
                 </div>
             </div>

@@ -2,15 +2,19 @@
     margin-top: 40px;
     width: 760px;
     height: 295px;
-    background-color: #FFF3D1;
     margin-right: 40px;
     border-radius: 15px;
-    outline: 3px solid #FFFDF6;
-    outline-offset: -3px;
 
 }
 .block_container{
+    border: 1px solid #171B2A;
     display: flex;
+    border-radius: 20px;
+    background-color: rgba(255, 253, 228, 0.5);
+    transition: 0.4s;
+}
+.block_container:hover{
+    background-color: #fffde4;
 }
 .block_one{
     display: flex;

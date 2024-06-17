@@ -1,14 +1,17 @@
 .short_block{
     width: 493px;
     height: 493px;
-    background-color: #C9E6C6;
     margin-top: 40px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 3px solid #ede990;
-    outline-offset: -3px;
+    border:1px solid #171B2A;
+    transition: 0.4s;
+    background-color: rgba(201, 230, 198, 0.5);
+}
+.short_block:hover{
+    background-color: #C9E6C6;
 }
 .block_container_short{
     width: 439px;

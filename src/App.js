@@ -28,10 +28,10 @@ function App() {
                           Частным клиентам
                           <div className={"down_menu"}>
                               <div className={"menu"}>
-                                  <div className={"menu_elem"}>Карты</div>
-                                  <div className={"menu_elem"}>Вклады</div>
+                                  <div className={"menu_elem"}><Link to={'/person-area'}>Карты</Link></div>
+                                  <div className={"menu_elem"}><Link to={'/person-area'}>Вклады</Link></div>
                                   <div className={"menu_elem"}><Link to={'/credit'}>Кредиты</Link></div>
-                                  <div className={"menu_elem"}>Переводы</div>
+                                  <div className={"menu_elem"}><Link to={'/person-area'}>Переводы</Link></div>
                               </div>
                           </div>
                       </div>
@@ -75,15 +75,15 @@ function App() {
               <div className={"foot_elem_one"}><LogoFooter/></div>
               <div className={"foot_elem_two"}>
                   <div className={"first_string"}>
-                      <div className={"one_elem"}>Новости</div>
+                      <div className={"one_elem"}><Link to={'/'}> Новости </Link></div>
                       <div className={"two_elem"}>О банке</div>
                       <div className={"three_elem"}><Link to={'/map'}>Банкоматы</Link></div>
-                      <div className={"four_elem"}>Вопросы и ответы</div>
+                      <div className={"four_elem"}><a href={'https://www.sberbank.ru/ru/person/help'}>Вопросы и ответы</a> </div>
                       <div className={"five_elem"}><Link to={'/credit'}>Кредитный калькулятор</Link></div>
                       <div className={"six_elem"}>+7(996)-912-15-69</div>
                   </div>
                   <div className={"second_string"}>
-                  <div className={"one_elem"}>Курсы валют</div>
+                      <div className={"one_elem"}><a href={'https://www.cbr.ru/currency_base/daily/'}>Курсы валют</a></div>
                       <div className={"two_elem"}><Link to={'/ipoteka'}>Ипотечный калькулятор</Link></div>
                   </div>
               </div>
@@ -93,16 +93,16 @@ function App() {
               <div className={"foot_elem_four"}>
                   <div className={"first_string_end"}>
                       <div className={"one_license"}>
-                          Генеральная лицензия Банка России на осуществление банковских <br/>
-                          операций №1481 от 11.08.2015 г.
+                          <a href={'http://www.sberbank.ru/common/img/uploaded/files/el_docs/licence_sberbank.pdf'}> Генеральная лицензия Банка России на осуществление банковских <br/>
+                          операций №1481 от 11.08.2015 г.</a>
                       </div>
                       <div className={"two_license"}>
-                          Информация о процентных ставках по договорам банковского <br/>
-                          вклада с физическими лицами
+                         <a href={'https://www.sberbank.com/ru/investor-relations/ras_vklad'}>Информация о процентных ставках по договорам банковского <br/>
+                          вклада с физическими лицами</a>
                       </div>
                   </div>
                   <div className={"second_string_end"}>
-                      Информация, обязательная к <br/> размещению
+                      <a href={'https://www.sberbank.ru/ru/inform'}> Информация, обязательная к <br/> размещению</a>
                   </div>
               </div>
             </div>

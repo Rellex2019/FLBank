@@ -9,7 +9,7 @@ const LongBlock = (props) => {
                 <div className={"block_one"}>
                     <div className={"name_block"}>{props.name}</div>
                     <div className={"desc_block"}>{props.desc}</div>
-                    <div className={"btn_cont_long"}><ServiceButton/></div>
+                    <div className={"btn_cont_long"}><ServiceButton border={'#171B2A'}/></div>
                 </div>
                 <div className={"block_two"}><img src={props.img}/></div>
             </div>

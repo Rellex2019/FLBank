@@ -5,16 +5,16 @@ import LongBlock from "../UI/Blocks/LongBlock";
 import ShortBlock from "../UI/Blocks/ShortBlock";
 import OpacityBlock from "../UI/Blocks/OpacityBlock";
 import Arrow from "../UI/svg/Arrow";
-
+import Presentation from "../img/Presentation.pdf";
 
 import Card from '../img/card.png';
-import Delivery from '../img/delivery.png';
+import Delivery from '../img/UpArrow.png';
 import Procent from '../img/procent.png';
 import Benefit from '../img/Benefit.png';
 import Credit from '../img/credits.png';
 import Android from '../img/android.png';
 import Iphone from '../img/iphone.png';
-
+import Bank from '../img/bank.png';
 
 const ServicesList = () => {
     return (
@@ -36,7 +36,7 @@ const ServicesList = () => {
                             "России"} img={Delivery}/>
                     </div>
                     <div className={"row_four"}>
-                        <ShortBlock name={"Кредит на любые цели"} desc={"До 500 000 рублей"} img={Credit}/>
+                        <ShortBlock name={"Кредит на любые цели"} desc={"До 500 000 рублей"} img={Bank}/>
                         <ShortBlock name={"Вклад «Лучший %»"} desc={"Получите до 16% годовых на ваши\n" + "сбережения"} img={Procent}/>
                         <ShortBlock name={"Тройная выгода для ваших\n" + "сбережений"} desc={"Получите софинансирование\n" + "до 36 000 ₽ в год, налоговый вычет\n" + "и инвестиционный доход"} img={Benefit}/>
                     </div>
@@ -58,7 +58,7 @@ const ServicesList = () => {
                 <div className={"news_block"}>
                     <div className={"header_cont"}>
                         <div className={"name_string"}>Новости</div>
-                        <div className={"name_next"}>Все новости <Arrow/></div>
+                        <div className={"name_next"}><a href={Presentation}>Все новости</a>  <Arrow/></div>
                     </div>
 
 
