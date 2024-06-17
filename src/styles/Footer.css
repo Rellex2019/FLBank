@@ -64,6 +64,10 @@
 }
 .one_elem, .two_elem, .three_elem, .four_elem, .five_elem, .six_elem{
     cursor: pointer;
+    transition: 0.5s;
+}
+.one_elem:hover, .two_elem:hover, .three_elem:hover, .four_elem:hover, .five_elem:hover{
+    font-size: 18px;
 }
 .one_license, .two_license{
     cursor: pointer;

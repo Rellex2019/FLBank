@@ -53,6 +53,10 @@ body{
     justify-content: center;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.nav_elem:hover{
+    font-size: 20px;
 }
 .search_field{
     height: 30px;
@@ -129,6 +133,13 @@ body{
     border-top: 0px;
 
 }
+.menu_elem{
+    font-size: 16px;
+    transition: 0.5s;
+}
+.menu_elem:hover{
+    font-size: 20px;
+}
 .menu{
     width:630px;
 }
@@ -145,3 +156,9 @@ body{
     z-index: 1;
 }
 
+.client_type{
+    transition: 0.5s;
+}
+.client_type:hover{
+    font-size: 20px;
+}

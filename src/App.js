@@ -25,7 +25,7 @@ function App() {
                   <div className={"first_block"}>
                       <Link to={'/'}><Logo/></Link>
                       <div className={"nav_elem"} id={"private"}>
-                          Частным клиентам
+                          <div className={'client_type'}>Частным клиентам</div>
                           <div className={"down_menu"}>
                               <div className={"menu"}>
                                   <div className={"menu_elem"}><Link to={'/person-area'}>Карты</Link></div>
@@ -36,7 +36,7 @@ function App() {
                           </div>
                       </div>
                       <div className={"nav_elem"} id={"business"}>
-                          Бизнесу
+                          <div className={'client_type'}>Бизнесу</div>
                           <div className={"down_menu2"}>
                               <div className={"menu2"}>
                                   <div className={"menu_elem"}>Расчетный счет</div>
