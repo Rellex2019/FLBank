@@ -7,7 +7,7 @@
 
 
     .flex_container{
-        width: 90%;
+        width: 400px;
     }
     .search_field{
         display: none;
@@ -144,5 +144,51 @@
     }
     .mob_none{
         display: none;
+    }
+
+
+
+    .news_block{
+        width: 400px;
+    }
+    .header_cont{
+        align-items: center;
+    }
+    .name_string{
+        font-size: 24px;
+    }
+    .name_next{
+        font-size: 16px;
+    }
+    .news{
+
+        justify-content: space-between;
+    }
+    .news_col_one, .news_col_two{
+        width: 170px;
+    }
+    .news_date{
+        font-size: 12px;
+    }
+    .news_desc{
+        font-size: 16px;
+    }
+
+
+
+    .footer{
+        width: 400px;
+    }
+    .first_string{
+        width: 400px;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    .second_string{
+        width: 400px;
+        font-size: 12px;
+    }
+    .six_elem{
+        font-size: 20px;
     }
 }

@@ -75,7 +75,7 @@ const ServicesList = () => {
                                 опытом FLBank в сфере обеспечения
                                 кибербезопасности</div>
                         </div>
-                        <div className={"news_col_three"}>
+                        <div className={"news_col_three, mob_none"}>
                             <div className={"news_date"}>8 июнь 2024</div>
                             <div className={"news_desc"}>GigaГОД! C днём рождения, GigaChat!</div>
                         </div>
