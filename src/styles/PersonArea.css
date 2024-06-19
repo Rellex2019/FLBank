@@ -79,11 +79,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
 }
 .trans_container{
     width: 957px;
     display: flex;
     flex-direction: column;
+
 }
 .check_container{
     display: flex;
@@ -98,6 +100,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
 }
 .text_expense{
     font-size: 20px;
@@ -140,7 +143,6 @@
 }
 .filters{
     padding: 10px 30px 10px 30px;
-    border: 1px solid #171B2A;
     border-radius: 25px;
     font-size: 16px;
     margin-right: 20px;
@@ -150,11 +152,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFFDF6;
     background-image: linear-gradient(#171B2A, #171B2A);
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: 100% 0%;
     transition: background-size .5s, color .5s;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
 }
 .filters:hover{
     background-size: 100% 100%;

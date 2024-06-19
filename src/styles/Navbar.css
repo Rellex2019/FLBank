@@ -37,7 +37,6 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    color: #FFFDF6;
 }
 .first_block{
     width: 1095px;
@@ -59,6 +58,81 @@ body{
 .nav_elem:hover{
     font-size: 20px;
 }
+
+#enter{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    text-align: end;
+    z-index: 2;
+}
+#enter:hover .hidden_enter
+{
+    position: relative;
+    display: block;
+}
+.hidden_enter{
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 300px;
+    top: 320px;
+    animation: 1s ease-in-out 0s alternate op;
+
+}
+@keyframes op {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFFDF6;
+    width: 350px;
+    height: 300px;
+    right: 200px;
+    top: 60px;
+z-index: 1;
+    text-align: left;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+}
+.num_card, .pass{
+font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.input{
+    border-top: 1px solid   #171B2A;
+    border-bottom: 1px solid   #171B2A;
+    border-left: 0px;
+    border-right: 0px;
+    height: 40px;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btns{
+    width: 100%;
+    background-image: linear-gradient(#4F7345, #4F7345);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-color: #FFFDF6;
+    transition: background-size .5s, color .5s;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btns:hover{
+    background-size: 100% 100%;
+    color: #FFFDF6;
+}
+
 .search_field{
     height: 30px;
     width: 400px;

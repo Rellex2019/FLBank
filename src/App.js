@@ -58,7 +58,18 @@ function App() {
                   <div className={"last_block"}>
                       <div className={'cont_burger'}><Burger/></div>
                       <div className={"nav_elem"}><Link to={'/map'}>Банкоматы</Link></div>
-                      <div className={"nav_elem"}><Link to={'/person-area'}>Онлайн банкинг</Link></div>
+                      <div className={"nav_elem"} id={'enter'}>
+                          <div className={"hidden_enter"}>
+                              <div className={'inside'}>
+                                  <div className={'num_card'}>Введите номер вашей карты</div>
+                                  <input className={"input"} type={"number"}/>
+                                  <div className={'pass'}>Введите ваш пароль</div>
+                                  <input className={"input"} type={"password"}/>
+                                  <Link to={'/person-area'}><button className={"btns"}>Войти в аккаут</button></Link>
+                                  <button className={"btns"}>Завести новую карту</button>
+                              </div>
+                          </div>
+                          Онлайн банкинг</div>
                   </div>
               </div>
           </div>

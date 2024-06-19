@@ -1,9 +1,8 @@
 @media (max-width: 480px){
-    #root{
+    body{
         width: 100vw;
-        overflow-x: hidden;
+        overflow-x : hidden;
     }
-
 
     .flex_container{
         width: 400px;
@@ -178,6 +177,9 @@
     .footer{
         width: 400px;
     }
+    .footer a{
+        color: #FFFDF6;
+    }
     .first_string{
         width: 400px;
         font-size: 12px;
@@ -195,5 +197,8 @@
     }
     .foot_elem_four{
         font-size: 12px;
+    }
+    .one_license a, .two_license a, .second_string_end a{
+        color: #AEAEAE;
     }
 }
