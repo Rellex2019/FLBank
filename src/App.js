@@ -9,12 +9,16 @@ import Map from "./pages/Map";
 import PersonArea from "./pages/PersonArea";
 
 
+import burger from "./UI/svg/burger";
 import Logo from "./UI/svg/Logo";
 import LogoFooter from "./UI/svg/Logo_Footer";
 import '../src/styles/Navbar.css';
 import './styles/fonts.css';
 import './styles/Footer.css';
+import './styles/mobile.css';
 import Search from "./UI/svg/Search";
+import Burger from "./UI/svg/burger";
+
 
 function App() {
   return (
@@ -52,6 +56,7 @@ function App() {
 
                   </div>
                   <div className={"last_block"}>
+                      <div className={'cont_burger'}><Burger/></div>
                       <div className={"nav_elem"}><Link to={'/map'}>Банкоматы</Link></div>
                       <div className={"nav_elem"}><Link to={'/person-area'}>Онлайн банкинг</Link></div>
                   </div>

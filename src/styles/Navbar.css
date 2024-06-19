@@ -162,3 +162,11 @@ body{
 .client_type:hover{
     font-size: 20px;
 }
+
+
+
+
+
+.cont_burger{
+    display: none;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/banners.css';
 import BannerImage from '../img/banner.png'
 import TextLogo from '../UI/svg/TextLogo.jsx';
+import Cashback from "../img/cashback.png";
 const FirstBanner = () => {
     return (
         <div>
@@ -16,7 +17,7 @@ const FirstBanner = () => {
                         <div className={"text_elem_six"}><TextLogo/></div>
                     </div>
                     <div className={"photo"}>
-                        <img src={BannerImage} className={"photo_elem"}></img>
+                        <img src={Cashback} className={"photo_elem"}></img>
                     </div>
                 </div>
             </div>

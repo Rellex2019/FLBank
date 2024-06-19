@@ -37,7 +37,7 @@ const ServicesList = () => {
                     </div>
                     <div className={"row_four"}>
                         <ShortBlock name={"Кредит на любые цели"} desc={"До 500 000 рублей"} img={Bank}/>
-                        <ShortBlock name={"Вклад «Лучший %»"} desc={"Получите до 16% годовых на ваши\n" + "сбережения"} img={Procent}/>
+                        <div className={'mob_none'}><ShortBlock name={"Вклад «Лучший %»"} desc={"Получите до 16% годовых на ваши\n" + "сбережения"} img={Procent}/></div>
                         <ShortBlock name={"Тройная выгода для ваших\n" + "сбережений"} desc={"Получите софинансирование\n" + "до 36 000 ₽ в год, налоговый вычет\n" + "и инвестиционный доход"} img={Benefit}/>
                     </div>
                 </div>

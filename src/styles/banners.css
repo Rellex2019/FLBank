@@ -5,6 +5,7 @@
     background-color: #C9E6C6;
     align-items: center;
     justify-content: center;
+
 }
 .center_container{
     position: relative;
@@ -12,6 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
+    margin-left: -100px;
 }
 .text_container{
     font-size: 36px;
@@ -40,3 +43,11 @@
     user-select: none;
     pointer-events: none;
 }
+.photo{
+    display: flex;
+    align-items: center;
+}
+.photo_elem{
+    height: 250px;
+}
+
