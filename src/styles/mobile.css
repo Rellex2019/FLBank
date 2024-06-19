@@ -1,9 +1,8 @@
 @media (max-width: 480px){
-    /*#root{*/
-    /*    width: 100vw;*/
-    /*    overflow-x: hidden;*/
-    /*}*/
-
+    #root{
+        width: 100vw;
+        overflow-x: hidden;
+    }
 
 
     .flex_container{
@@ -45,7 +44,7 @@
         width: 50%;
     }
     .photo_elem{
-        width: 50%;
+        width: 145px;
         margin-left: 40px;
         height: 145px;
     }
@@ -190,5 +189,11 @@
     }
     .six_elem{
         font-size: 20px;
+    }
+    .foot_elem_three{
+        font-size: 12px;
+    }
+    .foot_elem_four{
+        font-size: 12px;
     }
 }

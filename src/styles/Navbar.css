@@ -37,6 +37,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    color: #FFFDF6;
 }
 .first_block{
     width: 1095px;
