@@ -56,7 +56,19 @@ function App() {
 
                   </div>
                   <div className={"last_block"}>
-                      <div className={'cont_burger'}><Burger/></div>
+                      <div className={'cont_burger'}>
+                          <Burger/>
+
+                      </div>
+                      <div className={"inburger"}>
+                          <div className={"burger_menu"}>
+                              <div className={"buttons2"}><Link to={'/person-area'}>Карты</Link></div>
+                              <div className={"buttons"}><Link to={'/person-area'}>Вклады</Link></div>
+                              <div className={"buttons"}><Link to={'/credit'}>Кредиты</Link></div>
+                              <div className={"buttons"}><Link to={'/map'}>Банкоматы</Link></div>
+                              <div className={"buttons3"}><Link to={'/person-area'}>Войти в аккаут</Link></div>
+                          </div>
+                      </div>
                       <div className={"nav_elem"}><Link to={'/map'}>Банкоматы</Link></div>
                       <div className={"nav_elem"} id={'enter'}>
                           <div className={"hidden_enter"}>
@@ -65,11 +77,14 @@ function App() {
                                   <input className={"input"} type={"number"}/>
                                   <div className={'pass'}>Введите ваш пароль</div>
                                   <input className={"input"} type={"password"}/>
-                                  <Link to={'/person-area'}><button className={"btns"}>Войти в аккаут</button></Link>
+                                  <Link to={'/person-area'}>
+                                      <button className={"btns"}>Войти в аккаут</button>
+                                  </Link>
                                   <button className={"btns"}>Завести новую карту</button>
                               </div>
                           </div>
-                          Онлайн банкинг</div>
+                          Онлайн банкинг
+                      </div>
                   </div>
               </div>
           </div>
@@ -77,7 +92,7 @@ function App() {
           {/*Pages*/}
 
           <Routes>
-            <Route path="/" element={<Main/>}/>
+              <Route path="/" element={<Main/>}/>
               <Route path="/credit" element={<CreditCalc/>}/>
               <Route path="/ipoteka" element={<IpotekaCalc/>}/>
               <Route path="/map" element={<Map/>}/>
